@@ -1,4 +1,5 @@
-# Svetovid-raspberry-client [<img align="right" height="50px" src="https://avsystem.github.io/Anjay-doc/_images/avsystem_logo.png">](http://www.avsystem.com/)
+
+# Anjay-raspberry-client [<img align="right" height="50px" src="https://avsystem.github.io/Anjay-doc/_images/avsystem_logo.png">](http://www.avsystem.com/)
 
 ## Overview
 
@@ -29,10 +30,10 @@ Currently, we have extensive support libraries and code-generators for Python an
 
 ## Installation instructions
 
-Install `svetovid_20.07_armhf.deb` on Raspberry Pi:
+Install `svetovid_20.11-raspberry_armhf.deb` on Raspberry Pi:
 
 ```sh
-$ sudo dpkg -i svetovid_20.07_armhf.deb
+$ sudo dpkg -i svetovid_20.11-raspberry_armhf.deb
 ```
 
 Note that this installs a `svetovid.service` systemd service, automatically enabled, and starts-up the Client immediately. You may want to disable this behavior in the following way:
@@ -44,9 +45,9 @@ $ sudo systemctl disable svetovid.service --now # disable and stop svetovid serv
 If you have the [Raspberry Pi Sense Hat](https://www.raspberrypi.org/products/sense-hat/) extension board, you may install additional packages to enable more objects:
 
 ```sh
-$ sudo dpkg -i svetovid-plugin-fsdm_20.07_armhf.deb \
-avsystem_svetovid-20.07-Linux-fsdmtool-runtime-python.deb \
-avsystem_svetovid-20.07-Linux-sensehat.deb
+$ sudo dpkg -i svetovid-plugin-fsdm_20.11-raspberry_armhf.deb \
+avsystem_svetovid-20.11-raspberry-Linux-fsdmtool-runtime-python.deb \
+avsystem_svetovid-20.11-raspberry-Linux-sensehat.deb
 ```
 
 ## Configuration
@@ -283,4 +284,4 @@ if __name__ == '__main__':
     ResourceHandler_3333_5506().main()
 ```
 
-For more complex examples install `avsystem_svetovid-20.07-Linux-sensehat.deb` package as described above, and have a look at other objects impementations in `/etc/svetovid/dm`.
+For more complex examples install `avsystem_svetovid-20.11-raspberry-Linux-sensehat.deb` package as described above, and have a look at other objects impementations in `/etc/svetovid/dm`.
