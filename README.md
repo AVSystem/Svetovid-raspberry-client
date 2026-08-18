@@ -1,3 +1,10 @@
+## ⚠️ Archived Repository
+
+**This repository is no longer actively maintained by the team. It is provided as is for reference purposes only.**
+**We do not accept issues, pull requests, or provide support.**
+**If you are still interested in this project or have questions, feel free to contact us. https://avsystem.com/contact/**
+
+---
 
 # Anjay-raspberry-client [<img align="right" height="50px" src="https://avsystem.github.io/Anjay-doc/_images/avsystem_logo.png">](http://www.avsystem.com/)
 
